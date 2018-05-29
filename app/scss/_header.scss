@@ -1,0 +1,129 @@
+.header-top {
+	background: $black;
+
+	&__box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 11px;
+		padding-bottom: 11px;
+	}
+}
+
+.top-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 53px;
+}
+
+.logo__link {
+	font-size: 20px;
+	color: #fff;
+	font-family: $thin;
+
+	i {
+		margin-right: 10px;
+		font-size: 26px;
+	}
+	span {
+		color: #8b8b8b;
+		font-size: 16px;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.header-phone__link {
+	color: #fff;
+	font-size: 18px;
+	font-family: $thin;
+	display: block;
+	padding-left: 14px;
+
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+.header-phone {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		height: 48px;
+		top: -14px;
+		left: 0;
+		width: 1px;
+		background: #444;
+	}
+
+}
+
+.my-acc__link {
+	padding-left: 29px;
+	padding-right: 29px;
+	font-size: 14px;
+	color: #999;
+	position: relative;
+
+	&:hover {
+		text-decoration: none;
+		color: #999;
+	}
+
+	&::before,
+	&::after {
+		position: absolute;
+		font-family: $ico-font;
+		bottom: 0;
+	}
+
+	&::before {
+		content: "\f2bd";
+		left: 12px;
+	}
+
+	&::after {
+		content: "\f0d7";
+		font-weight: 900;
+		right: 15px;
+	}
+}
+
+.serch-inpt {
+	width: 555px;
+	color: #999;
+	background: #444;
+	border: none;
+	padding: 12px 13px 9px 13px;
+	font-size: 13px;
+	font-style: italic;
+
+	&::placeholder {
+		font-style: italic;
+		color: #999;
+	}
+}
+
+.search-box {
+	position: relative;
+}
+
+.search-btn {
+	border: none;
+	background: none;
+	color: #999;
+	position: absolute;
+	right: 10px;
+	top: 9px;
+	cursor: pointer;
+}
