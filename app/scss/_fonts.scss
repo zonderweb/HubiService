@@ -1,0 +1,5 @@
+@import "_mixins/font-face";
+
+@include font-face("myriadpro-thin", "../fonts/MyriadSetProThin/MyriadSetProThin");
+@include font-face("myriadpro-text", "../fonts/MyriadSetProText/MyriadSetProText");
+@include font-face("myriadpro-semibold", "../fonts/MyriadSetProSemiBold/MyriadSetProSemiBold");
