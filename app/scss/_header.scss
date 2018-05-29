@@ -1,5 +1,6 @@
 .header-top {
 	background: $black;
+	overflow: hidden;
 
 	&__box {
 		display: flex;
@@ -7,6 +8,13 @@
 		align-items: center;
 		padding-top: 11px;
 		padding-bottom: 11px;
+		
+		@include bmd-block {
+			justify-content: center;
+		}
+		@include md-block {
+			flex-wrap: wrap;
+		}
 	}
 }
 
@@ -14,10 +22,18 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	@include xs-block {
+		flex-wrap: wrap;		
+	}
 }
 
 .logo {
 	margin-right: 53px;
+	@include sm-block {
+		//margin-right: 0;
+		margin-bottom: 10px;
+	}
 }
 
 .logo__link {
@@ -101,6 +117,9 @@
 
 .serch-inpt {
 	width: 555px;
+	@include bmd-block {
+		width: 100%;
+	}
 	color: #999;
 	background: #444;
 	border: none;
@@ -116,6 +135,11 @@
 
 .search-box {
 	position: relative;
+	max-width: 100%;
+	@include xs-block {
+		width: 100%;
+		margin-bottom: 20px;
+	}
 }
 
 .search-btn {
