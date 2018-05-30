@@ -151,3 +151,58 @@
 	top: 9px;
 	cursor: pointer;
 }
+
+// HEDER BOTTOM
+.header-bottom {
+	border-bottom: 1px solid #ededed;
+}
+
+.header-bottom__box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Mmenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	&__item {
+		display: inline-block;
+		font-size: 14px;
+	}
+
+	&__link {
+		color: $black;
+		padding: 18px 17px;
+		display: block;
+
+		&:hover {
+			color: $green;
+		}
+
+		&:first-child {
+			padding-left: 0;
+		}
+	}
+}
+
+.cart {
+	text-align: left;
+	width: 24%;
+
+	&__link {
+		background: $green;
+		color: #fff;
+		display: block;
+		padding-top: 18px;
+		padding-bottom: 18px;
+		padding-left: 24px;
+
+		&:hover {
+			text-decoration: none;
+			color: #fff;
+		}
+	}
+}
