@@ -6,10 +6,11 @@
 .sidebar {
 	@include col();
 	@include size(3);
+	overflow: hidden;
 }
 
 .main-content {
 	@include col();
 	@include size(9);
-	border: 1px solid grey;
+	overflow: hidden;
 }
