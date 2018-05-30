@@ -1,3 +1,6 @@
+.header {
+	margin-bottom: 35px;
+}
 .header-top {
 	background: $black;
 	overflow: hidden;
@@ -175,6 +178,15 @@
 	&__item {
 		display: inline-block;
 		font-size: 14px;
+		padding-left: 17px;
+		padding-right: 17px;
+
+		&:first-child {
+			padding-left: 0;
+			@include xs-block {
+				padding-left: 17px;
+			}
+		}
 		@include xs-block {
 			display: block;
 		}
@@ -182,15 +194,12 @@
 
 	&__link {
 		color: $black;
-		padding: 18px 17px;
 		display: block;
+		padding-top: 18px;
+		padding-bottom: 18px;
 
 		&:hover {
 			color: $green;
-		}
-
-		&:first-child {
-			padding-left: 0;
 		}
 	}
 }

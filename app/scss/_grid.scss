@@ -1,0 +1,15 @@
+.main-grid {
+	@include row-flex();
+	justify-content: center;
+}
+
+.sidebar {
+	@include col();
+	@include size(3);
+}
+
+.main-content {
+	@include col();
+	@include size(9);
+	border: 1px solid grey;
+}

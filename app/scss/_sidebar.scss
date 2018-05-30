@@ -1,0 +1,76 @@
+// SIDEBAR MENU
+.Smenu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ededed;
+	margin-bottom: 61px;
+
+	&__item {
+		color: $c-text;
+	}
+
+	&__link {
+		display: block;
+		padding: 17px 25px;
+		color: $c-text;
+
+		&:hover {
+			text-decoration: none;
+			color: $accent;
+		}
+	}
+
+	&__active {
+		background: $accent;
+		color: #fff;
+
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+// SIDEBAR BLOCK
+
+.Sblock {
+	border: 4px solid #f7f7f7;
+	font-size: 14px;
+	display: flex;
+	justify-content: space-between;
+	padding: 26px 19px;
+	margin-bottom: 20px;
+}
+
+.Scontent {
+	margin-left: 10px;
+}
+
+.h2-sidebar {
+	font-size: 18px;
+	font-family: $semibold;
+}
+
+.c-red {
+	color: $c-red;
+}
+
+.c-orange {
+	color: $c-orange;
+}
+
+.c-blue {
+	color: $c-blue;
+}
+
+.bg-purple {
+	background: $bg-purple;
+}
+
+.c-white {
+	color: $c-white;
+}
+
+.solid-white {
+	color: $white;
+}

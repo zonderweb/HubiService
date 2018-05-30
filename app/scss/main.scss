@@ -55,7 +55,6 @@ b, strong {
 }
 
 @import "header";
-
-
-
-// @import "media"; // Always at the end
+@import "sidebar";
+@import "content";
+@import "grid"; // Always at the end
