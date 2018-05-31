@@ -1,5 +1,6 @@
 .slider {
 	position: relative;
+	margin-bottom: 72px;
 }
 
 .arr-prew,
@@ -54,4 +55,91 @@
 
 .s-prod__descr {
 	font-size: 22px;
+}
+
+// BEST PRODUCT
+
+.bestProduct {
+	text-align: center;
+}
+
+.h1__bestProd {
+	font-size: 28px;
+	margin-bottom: 90px;
+	font-family: $thin;
+	font-weight: normal;
+}
+
+.bestProduct-item {
+	text-align: center;
+	padding-top: 40px;
+	font-family: $thin;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 35px;
+
+	&:hover {
+	 border: 1px solid #ededed;
+	}
+}
+
+.imgProd__link {
+	display: block;
+	margin-bottom: 36px;
+
+	img {
+		max-width: 69%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.prodTitle__link {
+	margin-bottom: 20px;
+	display: block;
+	color: $black;
+	font-size: 22px;
+	font-family: $thin;
+
+	&:hover {
+		color: $black;
+		text-decoration: none;
+	}
+}
+
+.prodPrice {
+	margin-top: auto;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.addCart__link {
+	display: block;
+	background: $accent;
+	color: #fff;
+	font-size: 18px;
+	padding-top: 14px;
+	padding-bottom: 13px;
+
+	&:hover {
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.byOneClick {
+	display: block;
+	background: #f5f1f3;
+	color: #777;
+	font-size: 14px;
+	padding-top: 18px;
+	padding-bottom: 14px;
+
+	&:hover {
+		text-decoration: none;
+		color: #777;
+	}
 }

@@ -14,3 +14,14 @@
 	@include size(9);
 	overflow: hidden;
 }
+
+.bestProduct-grid {
+	@include row-flex();
+	justify-content: space-between;
+}
+
+.bestProduct-item {
+	@include col();
+	@include size(4);
+	overflow: hidden;
+}
