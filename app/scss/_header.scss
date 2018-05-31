@@ -43,6 +43,8 @@
 	font-size: 20px;
 	color: #fff;
 	font-family: $thin;
+	display: flex;
+	align-items: center;
 
 	i {
 		margin-right: 10px;
@@ -51,6 +53,7 @@
 	span {
 		color: #8b8b8b;
 		font-size: 16px;
+		margin-left: 5px;
 	}
 
 	&:hover {

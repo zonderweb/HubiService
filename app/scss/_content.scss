@@ -78,9 +78,10 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-bottom: 35px;
+	box-sizing: border-box;
 
 	&:hover {
-	 border: 1px solid #ededed;
+	 outline: 1px solid #ededed;
 	}
 }
 

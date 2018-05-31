@@ -1,0 +1,41 @@
+.footer-top {
+	background: #333;
+
+	&__flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+.footer-menu {
+	.Mmenu__link {
+		color: rgba(255, 255, 255, 0.45);
+	}
+}
+
+.social__link {
+	color: rgba(255, 255, 255, 0.25);
+	font-size: 21px;
+	margin-left: 14px;
+	margin-right: 14px;
+	display: inline-block;
+
+	&:hover {
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+.social-box {
+	position: relative;
+	
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 1px;
+		height: 100%;
+		background: #444;
+	}
+}
