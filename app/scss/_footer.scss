@@ -28,7 +28,7 @@
 
 .social-box {
 	position: relative;
-	
+
 	&::before {
 		content: '';
 		position: absolute;
@@ -37,5 +37,27 @@
 		width: 1px;
 		height: 100%;
 		background: #444;
+	}
+}
+
+.footer-bottom {
+	background: #262626;
+	text-align: center;
+	padding-top: 28px;
+	padding-bottom: 27px;
+}
+
+.phone__number {
+	font-size: 22px;
+	color: #c8c8c8;
+	margin-bottom: 10px;
+}
+
+.order__call {
+	text-decoration: underline;
+	color: #666666;
+
+	&:hover {
+		text-decoration: none;
 	}
 }
