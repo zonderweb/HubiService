@@ -23,5 +23,6 @@
 .bestProduct-item {
 	@include col();
 	@include size(4);
+	@include size-md(6);
 	overflow: hidden;
 }

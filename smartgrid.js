@@ -17,7 +17,11 @@ const settings = {
         md: {
             width: "992px",
             fields: "15px"
-        },
+				},
+				psm: {
+					width: "768px",
+					fields: "10px"
+				},
         sm: {
             width: "720px",
             fields: "10px"

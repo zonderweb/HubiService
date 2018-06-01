@@ -5,6 +5,15 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		@include md-block {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		@include sm-block {
+			flex-direction: column;
+		}
 	}
 }
 
@@ -37,6 +46,9 @@
 		width: 1px;
 		height: 100%;
 		background: #444;
+		@include sm-block {
+			display: none;
+		}
 	}
 }
 
@@ -59,5 +71,23 @@
 
 	&:hover {
 		text-decoration: none;
+	}
+}
+
+.logo-footer {
+	@include sm-block {
+		margin-top: 20px;
+	}
+}
+
+.footer-menu {
+	@include sm-block {
+		margin-bottom: 10px;
+	}
+}
+
+.social-box {
+	@include sm-block {
+		margin-bottom: 20px;
 	}
 }
