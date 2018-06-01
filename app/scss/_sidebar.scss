@@ -40,6 +40,9 @@
 	justify-content: space-between;
 	padding: 26px 19px;
 	margin-bottom: 20px;
+	@include sm-block {
+		justify-content: flex-start;
+	}
 }
 
 .Scontent {

@@ -6,12 +6,22 @@
 .sidebar {
 	@include col();
 	@include size(3);
+	@include size-psm(5);
+	@include size-sm(12);
+	@include sm-block {
+		order: 2;
+	}
 	overflow: hidden;
 }
 
 .main-content {
 	@include col();
 	@include size(9);
+	@include size-psm(7);
+	@include size-sm(12);
+	@include sm-block {
+		order: 1;
+	}
 	overflow: hidden;
 }
 
@@ -24,5 +34,6 @@
 	@include col();
 	@include size(4);
 	@include size-md(6);
+	@include size-xs(12);
 	overflow: hidden;
 }
