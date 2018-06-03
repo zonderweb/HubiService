@@ -2,6 +2,8 @@
 @import "fonts";
 @import "libs";
 @import "smartgrid";
+@import "smartgrid";
+@import "typography";
 
 ::placeholder {
 	color: #666;
@@ -58,5 +60,6 @@ b, strong {
 @import "sidebar";
 @import "content";
 @import "category";
+@import "product";
 @import "footer";
 @import "grid"; // Always at the end
