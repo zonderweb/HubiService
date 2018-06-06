@@ -10,18 +10,18 @@ const settings = {
         fields: '15px' // Внутренние отступы
     },
     breakPoints: {
-				bmd: {
-					width: "1170px",
-					fields: "15px"
-				},
+		bmd: {
+			width: "1170px",
+			fields: "15px"
+		},
         md: {
             width: "992px",
             fields: "15px"
 				},
-				psm: {
-					width: "768px",
-					fields: "10px"
-				},
+		psm: {
+			width: "768px",
+			fields: "10px"
+		},
         sm: {
             width: "720px",
             fields: "10px"
