@@ -33,6 +33,13 @@
 .adress__item {
 	@include col();
 	@include size(4);
+	@include size-xs(12);
+	@include xs-block {
+		margin-bottom: 10px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .adress__header {
@@ -75,6 +82,9 @@
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 16px;
+	@include xs-block {
+		flex-wrap: wrap;
+	}
 }
 
 .cnt-text {
@@ -93,6 +103,17 @@
 	padding-right: 30px;
 	font-size: 14px;
 	font-family: $semibold;
+	@include xs-block {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+}
+
+.inpt,
+.cnt {
+	@include xs-block {
+		width: 100%;
+	}
 }
 
 
