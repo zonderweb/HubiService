@@ -3,3 +3,34 @@
 	font-family: $thin;
 	font-weight: normal;
 }
+
+.h1__page {
+	font-size: 36px;
+}
+
+p {
+	color: $black;
+	line-height: 28px;
+	margin-bottom: 40px;
+}
+
+.bg-grey {
+	background: #ededed;
+	padding: 22px 38px 27px 81px;
+}
+
+.ul-page {
+	margin-left: 30px;
+	margin-right: 45px;
+	color: $black;
+
+	li {
+		line-height: 28px;
+		margin-bottom: 28px;
+	}
+}
+
+
+.table-wrapper {
+	margin-bottom: 40px;
+}
